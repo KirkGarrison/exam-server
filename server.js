@@ -23,8 +23,14 @@ db.once('open', function() {
 const PORT = process.env.PORT || 3001;
 
 app.get('/seed', handleGetSeed);
+// app.get('/characters', handleGetCharacters)
+// app.post('/characters', handlePostCharacters)
+// app.delete('/characters/:id', handleDeleteCharacters)
+// app.put('/characters/:id', handlePutCharacters)
+
 
 // to seed your database hit the route /seed, you will get a success message back and your database will now have a small collection of characters in it you can use as a base
+
 
 
 
