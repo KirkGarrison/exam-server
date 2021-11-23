@@ -3,7 +3,7 @@ require('dotenv').config();
 const Char = require('./charModel');
 
 // write a function that connects to the db
-// uses the `.deleteMany` method on the cat collection with no object properties specified
+// uses the `.deleteMany` method on the char collection with no object properties specified
 // disconnect from the db
 
 async function clear() {
